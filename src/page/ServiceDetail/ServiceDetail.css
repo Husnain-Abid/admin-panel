@@ -1,0 +1,201 @@
+.service-detail {
+  width: 100%;
+  position: relative;
+  padding: 0 5vw;
+}
+
+img {
+  object-fit: cover;
+  max-width: 100%;
+  height: auto;
+
+}
+
+/* services-section start*/
+.service-detail {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 50px 0;
+  gap: 10vh;
+}
+
+.service-detail .contact-part {
+  width: 80%;
+  text-align: center;
+}
+
+.service-detail .contact-part h2 {
+  font-family: var(--Manrope);
+  font-size: 55.15px;
+  font-weight: 800;
+  line-height: 66.18px;
+}
+
+.service-detail .contact-part p {
+  font-family: var(--Roboto);
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 40px;
+  text-align: justify;
+  color: #CCCCCC;
+  margin: 40px 0;
+}
+
+.service-detail .tech-logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  align-items: center;
+  gap: 5vh;
+}
+
+.service-detail .tech-logo-sm {
+  display: none;
+}
+
+.service-detail .logos {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+}
+
+.service-detail .redirect {
+  margin: 5vh 0;
+}
+.service-detail .redirect button{
+  padding: 13.48px 20.66px;
+  border: 1.03px solid black;
+  border-radius: 5.13px;
+  background-color: var(--font-color-1);
+  cursor: pointer;
+  color: white;
+  font-size: 16px;
+
+}
+
+/* services-section end */
+
+@media only screen and (max-width: 1500px) {
+  .service-detail {
+    width: 100%;
+    display: flex;
+    margin-top: 0px;
+    margin-bottom: 50px;
+    gap: 5vh;
+  }
+
+  .service-detail .img-part img {
+    width: 300px;
+    height: 300px;
+  }
+
+  .service-detail .contact-part {
+    width: 100%;
+  }
+
+  .service-detail .contact-part p {
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 32px;
+    margin: 20px 0;
+  }
+
+  .service-detail .logos {
+    width: 100%;
+  }
+
+  .service-detail .logos .box {
+    width: 70px;
+    height: 70px;
+  }
+
+
+
+  @media only screen and (max-width: 800px) {
+    .service-detail {
+      width: 100%;
+      display: flex;
+      margin-top: 0px;
+      margin-bottom: 50px;
+      gap: 5vh;
+    }
+
+    .service-detail .img-part img {
+      width: 300px;
+      height: 300px;
+    }
+
+    .service-detail .contact-part {
+      width: 100%;
+    }
+
+    .service-detail .contact-part p {
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 29px;
+      margin: 20px 0;
+    }
+
+    .service-detail .logos {
+      width: 100%;
+    }
+
+
+    .service-detail .tech-logo {
+      display: none;
+    }
+
+    .service-detail .tech-logo-sm {
+      display: block;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      width: 100%;
+      align-items: center;
+      gap: 5vh;
+    }
+
+    .service-detail .logos .box {
+      width: 50px;
+      height: 50px;
+    }
+
+  }
+}
+
+
+@media only screen and (max-width: 600px) {
+
+  .service-detail .img-part img {
+    width: 199px;
+    height: 200px;
+  }
+
+
+  .service-detail .contact-part h2 {
+    font-family: var(--Manrope);
+    font-size: 30.15px;
+    font-weight: 800;
+    line-height: 37.18px;
+  }
+
+
+  .service-detail .contact-part p {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 25px;
+    margin: 20px 0;
+  }
+
+
+  .service-detail .logos .box {
+    width: 40px;
+    height: 40px;
+  }
+
+
+}

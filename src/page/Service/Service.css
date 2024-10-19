@@ -1,0 +1,124 @@
+.service {
+  width: 100%;
+  position: relative;
+  padding: 0 5vw;
+}
+
+img {
+  object-fit: cover;
+  max-width: 100%;
+  height: auto;
+
+}
+
+/* services-section start*/
+.service .service-box {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 50px 0;
+}
+
+.service-box .services-intro {
+  text-align: center;
+}
+
+.service-box .services-intro h1 {
+  text-align: center;
+}
+
+.service-box .services-intro p {
+  font-family: var(--Roboto);
+  font-size: 18.1px;
+  font-weight: 400;
+  line-height: 27.15px;
+  text-align: center;
+}
+
+.service-box .main-serices-box {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  gap: 1vw;
+  flex-wrap: wrap;
+}
+
+.service-box .main-serices-box .service-col-1 {
+  margin-top: 98px;
+}
+
+.service-box .service-card {
+  text-align: center;
+  background-color: var(--secondary-bg-color);
+  border-radius: 7.2px;
+  width: 287.48px;
+  height: 318.69px;
+  padding: 39.9px 0;
+  margin: 35px 0;
+
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service-box .service-card:hover {
+  transform: translateY(-10px);
+  /* Moves the card up by 10px on hover */
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.service-box .service-card h1 {
+  font-family: var(--Roboto);
+  font-size: 25.34px;
+  font-weight: 500;
+  line-height: 30.41px;
+  padding: 15px 0;
+}
+
+.service-box .service-card p {
+  font-family: var(--Roboto);
+  font-size: 14.48px;
+  font-weight: 400;
+  line-height: 21.72px;
+  padding: 15px 45px;
+
+}
+
+/* services-section end */
+
+/* Review section end */
+
+@media only screen and (max-width: 1000px) {
+
+  .services-box .main-serices-box .service-col-1 {
+    margin-top: 0px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1vw;
+  }
+
+  .service-box .main-serices-box .service-col-1 {
+    margin-top: 0;
+  }
+  .service-box .main-serices-box .service-col-2 {
+    margin-top: 0;
+  }
+
+  .services-box .main-serices-box .service-col-2 {
+    margin-top: 0px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1vw;
+  }
+
+  .services-box .service-card {
+    margin: 0;
+    margin-top: 20px;
+
+  }
+
+}

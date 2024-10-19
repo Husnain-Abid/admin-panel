@@ -1,0 +1,188 @@
+.career {
+  width: 100%;
+  position: relative;
+  padding: 0 5vw;
+}
+
+img {
+  object-fit: cover;
+  max-width: 100%;
+  height: auto;
+
+}
+
+/* services-section start*/
+.career .career-hero {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10vh 0;
+}
+
+
+.career .content {
+  width: 50%;
+  text-align: center;
+}
+
+.career .content h2 {
+  font-family: var(--Inter);
+  font-size: 58.09px;
+  font-weight: 300;
+  line-height: 71.37px;
+  text-align: left;
+  text-transform: uppercase;
+  width: 80%;
+  margin: auto;
+}
+
+.career .career_img {
+  width: 50%;
+}
+
+.career-job {
+  width: 100%;
+}
+
+.career .career-job h3 {
+  font-family: var(--Manrope);
+  font-size: 41.98px;
+  font-weight: 800;
+  line-height: 50.38px;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--font-color-1);
+  margin-bottom: 10vh;
+}
+
+.career .career-job .job {
+  width: 100%;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 17px 35px;
+  align-items: center;
+  margin: 2vh 0;
+  border-radius: 7.2px;
+}
+
+.career .career-job .title {
+  color: black;
+}
+
+.career .career-job .title h4 {
+  font-family: var(--Manrope);
+  font-size: 22.93px;
+  font-weight: 800;
+  line-height: 39.51px;
+  text-transform: uppercase;
+}
+
+.career .career-job .title span {
+  font-family: var(--Manrope);
+  font-size: 16.25px;
+  font-weight: 800;
+  line-height: 24.31px;
+  text-align: left;
+}
+
+
+.career .career-job .view-detail button {
+  font-family: var(--Manrope);
+  font-size: 16.58px;
+  font-weight: 800;
+  line-height: 24.7px;
+  background-color: var(--font-color-1);
+  padding: 10px 30px;
+  color: white;
+  border: 0px solid white;
+  border-radius: 7.2px;
+  cursor: pointer;
+}
+
+
+/* services-section end */
+
+/* Review section end */
+
+@media only screen and (max-width: 1000px) {
+  .career .career-hero {
+    display: flex;
+    flex-direction: column;
+    padding: 5vh 0;
+  }
+
+  .career .content {
+    width: 100%;
+    padding-bottom: 5vh;
+  }
+
+  .career .content h2 {
+    font-size: 48px;
+    line-height: 61px;
+  }
+
+  .career .career_img {
+    width: 80%;
+    text-align: center;
+  }
+
+}
+
+@media only screen and (max-width: 700px) {
+  .career .content h2 {
+    font-size: 38px;
+    line-height: 51px;
+
+  }
+
+  .career .career-job .job {
+    padding: 13px 20px;
+  }
+
+  .career .career-job h3 {
+    margin: 5vh 0;
+  }
+
+
+  .career .career-job .view-detail button {
+    font-size: 13.58px;
+    font-weight: 800;
+    line-height: 24.7px;
+    padding: 5px 25px;
+  }
+
+
+}
+
+@media only screen and (max-width: 500px) {
+  .career .career-job h3 {
+    font-size: 28px;
+    font-weight: 800;
+  }
+
+  .career .career-job .title span {
+    font-size: 13.25px;
+    font-weight: 800;
+    line-height: 10.31px;
+  }
+
+  .career .career-job .title h4 {
+    font-size: 15.93px;
+    font-weight: 800;
+    line-height: 30.51px;
+  }
+
+  .career .career-job .job {
+    padding: 10px 15px;
+  }
+
+  .career .career-job .view-detail button {
+    font-size: 11.58px;
+    font-weight: 800;
+    line-height: 24.7px;
+    padding: 5px 20px;
+  }
+
+}

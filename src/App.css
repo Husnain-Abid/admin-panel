@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  line-height: normal;
+  min-width: 100%;
+  height: 100%;
+}
+
+
+:root {
+  /* fonts */
+  --Manrope: "Manrope", sans-serif;
+  --Roboto: "Roboto", sans-serif;
+  --Noto-Sans: "Noto Sans", sans-serif;
+  --Inter: "Inter", sans-serif;
+
+
+
+  /* Colors */
+  --main-bg-color: #070707;
+  --secondary-bg-color: #212325;
+  --third-bg-color: #2A2A2A;
+  --card-bg-color: #BFC137;
+
+  --font-color-1: #FB5C46;
+  
+  --font-color-2: #ffe768;
+
+  --btn-color-1: #dfe198;
+  --btn-color-2: #006D77;
+
+  /* border */
+  --borderradius: 50px;
+
+}
+
+.main {
+  background-color: var(--main-bg-color);
+  color: white;
+  min-height: 100vh;
+  background-image: url('../public/assest/image/bg_image.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}

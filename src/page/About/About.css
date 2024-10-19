@@ -1,0 +1,519 @@
+.about-us {
+    width: 100%;
+    position: relative;
+    /* padding: 0 5vw; */
+}
+
+img {
+    object-fit: cover;
+    max-width: 100%;
+    height: auto;
+
+}
+
+/* .about-seciton-1 start */
+.about-seciton-1 {
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    gap: 1vw;
+    background: radial-gradient(70.71% 70.71% at 50% 50%, #FB5C46 0%, #D24732 100%);
+    padding: 10vh 5vw;
+}
+
+.about-seciton-1 .content {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.about-seciton-1 .content h1 {
+    font-family: var(--Inter);
+    font-size: 121.96px;
+    font-weight: 900;
+    line-height: 134px;
+    text-transform: uppercase;
+    text-shadow: 5.74px 7.66px 7.66px rgba(249, 122, 15, 0.7);
+
+}
+
+
+.about-seciton-1 .image {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.about-seciton-1 .image img {
+
+    max-width: 100%;
+    object-fit: cover;
+}
+
+/* .about-seciton-1 end */
+
+/* .about-seciton-2 start */
+.about-seciton-2 {
+    width: 100%;
+    padding: 15vh 5vw;
+}
+
+.about-seciton-2 .about-description h1 {
+    font-family: var(--Inter);
+    font-size: 47.46px;
+    font-weight: 500;
+    line-height: 61.52px;
+    text-align: left;
+    color: var(--font-color-1);
+}
+
+.about-seciton-2 .about-description p {
+    font-family: var(--Inter);
+    font-size: 16.87px;
+    font-weight: 300;
+    line-height: 29.73px;
+    text-align: left;
+    margin-top: 20px;
+}
+
+.about-seciton-2 .about-description .p3 {
+    font-family: var(--Inter);
+    font-size: 20.79px;
+    font-weight: 300;
+    line-height: 27.07px;
+    text-align: left;
+}
+
+.discription-box {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+    gap: 2vw;
+}
+
+.about-seciton-2 .discription-box .mission-description {
+    width: 50%;
+}
+
+.about-seciton-2 .discription-box .about-description {
+    width: 50%;
+}
+
+.about-seciton-2 .mission-description h1 {
+    font-family: var(--Inter);
+    font-size: 47.46px;
+    font-weight: 500;
+    line-height: 61.52px;
+    text-align: left;
+    color: var(--font-color-1);
+}
+
+.about-seciton-2 .mission-description p {
+    font-family: var(--Inter);
+    font-size: 16.87px;
+    font-weight: 300;
+    line-height: 29.73px;
+    text-align: left;
+    margin-top: 20px;
+}
+
+/* .about-seciton-2 end */
+
+
+/* .about-seciton-3 start */
+.about-seciton-3 {
+    width: 100%;
+    padding: 5vh 5vw;
+    background-color: white;
+    color: black;
+}
+
+.about-seciton-3 h2 {
+    margin: 20px 0;
+}
+
+.about-seciton-3 .ceo-section {
+    display: flex;
+    gap: 2vw;
+    width: 100%;
+
+}
+
+.about-seciton-3 .ceo-section .ceo-img {
+    width: 35%;
+}
+
+.about-seciton-3 .ceo-section .ceo-img img {
+    width: 100%;
+}
+
+.about-seciton-3 .ceo-section .ceo-contact {
+    width: 60%;
+    display: flex;
+    gap: 1vh;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.about-seciton-3 .ceo-section .ceo-contact h1 {
+    font-family: var(--Manrope);
+    font-size: 26.11px;
+    font-weight: 500;
+    line-height: 31.33px;
+    text-align: left;
+}
+
+.about-seciton-3 .ceo-section .ceo-contact h5 {
+    font-family: var(--Manrope);
+    font-size: 13.05px;
+    font-weight: 600;
+    line-height: 15.67px;
+    margin: 5px 0;
+    text-align: left;
+
+}
+
+.about-seciton-3 .ceo-section .ceo-contact p {
+    font-family: var(--Manrope);
+    font-size: 13.05px;
+    font-weight: 400;
+    line-height: 19.58px;
+    text-align: left;
+}
+
+.about-seciton-3 .ceo-section .ceo-contact h4 {
+    font-family: var(--Manrope);
+    font-size: 11.42px;
+    font-weight: 700;
+    line-height: 13.71px;
+    text-align: left;
+    margin: 5px 0;
+}
+
+.about-seciton-3 .team-section {
+    width: 100%;
+    display: flex;
+    gap: 2vw;
+    margin-top: 60px;
+}
+
+/* .about-seciton-3 .team-section .team-images {
+    width: 35%;
+    text-align: center;
+}
+
+.about-seciton-3 .team-section .team-images .team-img {
+    display: flex;
+    gap: 1vw;
+    margin: 2vh 0;
+    width: 100%;
+}
+
+.about-seciton-3 .team-section .team-images .team-img img {
+    width: 50%;
+} */
+
+.about-seciton-3 .team-section .team-contact {
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+}
+
+.about-seciton-3 .team-section .team-contact h1 {
+    font-family: var(--Inter);
+    font-size: 29.8px;
+    font-weight: 300;
+    line-height: 36.91px;
+    text-align: left;
+    margin: 5px 0;
+}
+
+.about-seciton-3 .team-section .team-contact ul {
+    list-style: none;
+    padding-left: 30px;
+    /* Adjust based on your SVG icon size */
+    font-family: var(--Inter);
+    font-size: 16.72px;
+    font-weight: 300;
+    line-height: 26.36px;
+    text-align: left;
+}
+
+.about-seciton-3 .team-section .team-contact ul li {
+    position: relative;
+    padding-left: 30px;
+    /* Space for the SVG icon */
+    margin: 5px 0;
+}
+
+.about-seciton-3 .team-section .team-contact li::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px;
+    /* Adjust based on your SVG icon size */
+    height: 20px;
+    /* Adjust based on your SVG icon size */
+    background-image: url('../../../public/assest/icon/ulicon.svg');
+    /* Path to your SVG file */
+    background-size: contain;
+    /* Ensure the SVG fits */
+    background-repeat: no-repeat;
+    /* Prevent tiling */
+}
+
+.about-seciton-3 .team-section .team-contact .team-btn {
+    width: 100%;
+    text-align: center;
+}
+
+.about-seciton-3 .team-section .team-contact .team-btn .btn-1 {
+    padding: 19.48px 26.66px;
+    border: 1.03px solid #FB5C46;
+    border-radius: 5.13px;
+    background: none;
+    /* Remove background color */
+    margin-right: 5.12px;
+    cursor: pointer;
+}
+
+.about-seciton-3 .team-section .team-contact .team-btn .btn-1:hover {
+    background-color: #FB5C46;
+    color: white;
+}
+
+.about-seciton-3 .team-section .team-contact .team-btn .btn-2 {
+    padding: 19.48px 26.66px;
+    border: 1.03px solid black;
+    border-radius: 5.13px;
+    background-color: none;
+    background: none;
+    /* Remove background color */
+    cursor: pointer;
+}
+
+.about-seciton-3 .team-section .team-contact .team-btn .btn-2:hover {
+    color: white;    
+    background-color:  black;
+}
+
+/* .about-seciton-3 end */
+
+
+/* .about-responsive start */
+
+@media only screen and (max-width: 1200px) {
+
+    .about-seciton-1 .content h1 {
+        font-size: 100.96px;
+        font-weight: 800;
+        line-height: 120px;
+    }
+
+    .about-seciton-1 .image img {
+
+        max-width: 100%;
+        object-fit: cover;
+        width: 350px;
+        height: 400px;
+
+    }
+}
+
+@media only screen and (max-width: 950px) {
+
+    .about-seciton-1 .content h1 {
+        font-size: 70.96px;
+        font-weight: 800;
+        line-height: 90px;
+    }
+
+    .about-seciton-1 .image img {
+        max-width: 100%;
+        object-fit: cover;
+        width: 265px;
+        height: 300px;
+    }
+
+    .about-seciton-3 .team-section .team-contact h1 {
+        font-size: 24.8px;
+        font-weight: 300;
+        line-height: 36.91px;
+        margin: 5px 0;
+    }
+
+    .about-seciton-3 .team-section .team-contact ul {
+        font-size: 12.72px;
+        font-weight: 300;
+        line-height: 20.36px;
+    }
+
+
+    .about-seciton-3 .team-section .team-contact .team-btn .btn-1 {
+        padding: 14.48px 20.66px;
+    }
+
+    .about-seciton-3 .team-section .team-contact .team-btn .btn-2 {
+        padding: 14.48px 20.66px;
+
+    }
+
+}
+
+@media only screen and (max-width: 680px) {
+
+    .about-seciton-1 .content h1 {
+        font-size: 51.96px;
+        font-weight: 800;
+        line-height: 65px;
+    }
+
+
+    .about-seciton-1 .image img {
+        max-width: 100%;
+        object-fit: cover;
+        width: 173px;
+        height: 200px;
+    }
+
+
+    .about-seciton-2 .about-description p {
+        font-family: var(--Inter);
+        font-size: 14.87px;
+        font-weight: 300;
+        line-height: 25.73px;
+        text-align: left;
+        margin-top: 20px;
+    }
+
+    .about-seciton-2 .about-description .p3 {
+        font-family: var(--Inter);
+        font-size: 16.79px;
+        font-weight: 300;
+        line-height: 26.07px;
+        text-align: left;
+    }
+
+    .about-seciton-2 .discription-box .mission-description {
+        width: 100%;
+    }
+
+    .discription-box {
+        width: 100%;
+        display: flex;
+
+        flex-direction: column;
+    }
+
+    .about-seciton-2 .discription-box .about-description {
+        margin-top: 20px;
+        width: 100%;
+    }
+
+    .about-seciton-3 .ceo-section {
+        display: flex;
+        gap: 2vw;
+        width: 100%;
+        flex-direction: column;
+    }
+
+
+    .about-seciton-3 h2 {
+        margin: 20px 0;
+        text-align: center;
+    }
+
+    .about-seciton-3 h2 {
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    .about-seciton-3 .ceo-section {
+        display: flex;
+        gap: 2vw;
+        width: 100%;
+        flex-direction: column;
+    }
+
+
+    .about-seciton-3 .ceo-section .ceo-img {
+        width: 100%;
+        text-align: center;
+    }
+
+    .about-seciton-3 .ceo-section .ceo-img img {
+        width: 80%;
+    }
+
+
+    .about-seciton-3 .ceo-section .ceo-contact {
+        width: 100%;
+        display: flex;
+        gap: 1vh;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .about-seciton-3 .ceo-section .ceo-contact h1 {
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    .about-seciton-3 .ceo-section .ceo-contact h5 {
+        margin: 10px 0;
+        text-align: center;
+    }
+
+    .about-seciton-3 .team-section {
+        width: 100%;
+        display: flex;
+        gap: 2vw;
+        margin-top: 60px;
+        flex-direction: column;
+    }
+
+    .about-seciton-3 .team-section .team-images {
+        width: 100%;
+        text-align: center;
+    }
+
+    .about-seciton-3 .team-section .team-contact {
+        display: flex;
+        flex-direction: column;
+        gap: 1vw;
+        align-items: center;
+        width: 100%;
+        justify-content: center;
+        margin: 5px 0;
+    }
+
+
+}
+
+
+@media only screen and (max-width: 480px) {
+    .about-seciton-1 .content h1 {
+        font-size: 33.96px;
+        font-weight: 800;
+        line-height: 44px;
+    }
+
+    .about-seciton-1 .image img {
+        max-width: 100%;
+        object-fit: cover;
+        width: 106px;
+        height: 123px;
+    }
+}
+
+
+
+/* .about-responsive end */

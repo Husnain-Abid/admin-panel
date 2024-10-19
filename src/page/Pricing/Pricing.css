@@ -1,0 +1,154 @@
+.pricing {
+    width: 100%;
+    text-align: center;
+}
+
+.pricing-section {
+    padding: 50px 20px;
+}
+
+.pricing-section h2 {
+    margin: 0;
+    font-family: var(--Manrope);
+    font-size: 55.15px;
+    font-weight: 800;
+    line-height: 66.18px;
+    text-align: center;
+}
+
+.pricing-section p {
+    margin: 27px 0 ;
+    font-family: var(--Manrope);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 46.91px;
+    text-align: center;
+}
+
+.pricing-cards {
+    margin: 50px 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.pricing-card {
+    border-radius: 21px;
+    overflow: hidden;
+    width: 316.42px;
+    text-align: center;
+}
+
+.pricing-card:hover {
+    transform: scale(1.02);
+    transition: transform 0.1s ease-in ;
+}
+
+.card-header {
+    background-color: var(--font-color-1);
+    padding: 20px;
+    text-align: center;
+    height: 220.08px;
+}
+
+.card-header:hover {
+    background-color: var(--font-color-1);
+    padding: 20px;
+    text-align: center;
+    height: 220.08px;
+}
+
+.card-header h5 {
+    /* margin: 0; */
+    font-family: var(--Manrope);
+    font-size: 24.63px;
+    font-weight: 500;
+    line-height: 29.55px;
+    text-align: center;
+}
+
+.card-header p{
+    margin: 10px 0;
+    font-family: var(--Manrope);
+    font-size: 15.66px;
+    font-weight: 600;
+    line-height: 37.33px;
+    text-align: center;
+}
+.card-header span{
+    font-family: var(--Manrope);
+    font-size: 15.66px;
+    font-weight: 600;
+    line-height: 37.33px;
+    text-align: left;
+}
+
+.card-body {
+    padding: 20px;
+    min-height: 405.71px;
+    background-color: var(--secondary-bg-color);
+    position: relative;
+    top: -100px;
+    border-radius: 21.15px;
+}
+
+.card-body ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 20px;
+}
+
+.card-body ul li {
+    padding: 10px 0;
+    font-family: var(--Manrope);
+    font-size: 12.01px;
+    font-weight: 400;
+    line-height: 18.01px;
+    text-align: center;
+}
+
+.card-footer {
+    border-top: 1px solid white;
+    text-align: center;
+    padding: 0;
+}
+
+.card-footer h5 {
+    margin: 10px 0;
+    font-family: var(--Manrope);
+    font-size: 15.14px;
+    font-weight: 500;
+    line-height: 22.71px;
+    text-align: center;
+}
+
+.card-footer p {
+    margin: 10px 0;
+    color: white;
+    font-family: var(--Manrope);
+    font-size: 12.01px;
+    font-weight: 400;
+    line-height: 18.01px;
+    text-align: center;
+}
+
+.card-footer button {
+    font-family: var(--Manrope);
+    font-size: 12.01px;
+    font-weight: 400;
+    line-height: 18.01px;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid var(--font-color-1);
+    padding: 10px 20px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+    background-color: transparent;
+    color: white;
+}
+
+.card-footer button:hover {
+    background-color: var(--font-color-1);
+    /* Darker red on hover */
+}
